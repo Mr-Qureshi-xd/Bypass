@@ -10,7 +10,7 @@ def Update():
 def Run():
         bit = platform.architecture()[0]
         if bit == '64bit':
-            print("\x1b[1;92m Congratulations ! Your Device Support this Tool')
+            print("\x1b[1;92m Congratulations ! Your Device Support this Tool")
 
             import KAUSAR_64
         elif bit =='32bit':
