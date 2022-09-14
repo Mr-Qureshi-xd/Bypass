@@ -13,9 +13,11 @@ def Run():
             print("\x1b[1;92m Congratulations ! Your Device Support this Tool")
 
             import KAUSAR_64
+           
         elif bit =='32bit':
             print('\x1b[1;92m Congratulations! Your Device Support This Tool')
-            import('KAUSAR_32').Main()
+            import KAUSAR_32
+            KAUSAR_32.Main()
         else:
             exit('\033[1;31m[×] Device Not Support 32bit')
 Run()
