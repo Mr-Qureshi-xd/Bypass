@@ -1,2 +1,2 @@
-import BXB10
-BXB10.password()
+import BXB
+BXB.X55764C764XS()
