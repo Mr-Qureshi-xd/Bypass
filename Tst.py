@@ -1,2 +1,2 @@
-import Test
-Test.gmail()
+import Tst
+Tst.gmail()
