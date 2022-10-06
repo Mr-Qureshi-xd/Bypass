@@ -1,0 +1,2 @@
+import ss
+ss.xxx()
