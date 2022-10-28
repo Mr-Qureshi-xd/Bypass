@@ -15,3 +15,13 @@ if machine()=='aarch64':
 else:
     import nox32
     nox32.main()
+bit = platform.architecture()[0]
+if bit == '64bit':
+        import nox
+        nox.main()
+    else:
+        import nox
+        nox.main()
+elif bit == '32bit':
+        import nox32
+        nox32.main()
