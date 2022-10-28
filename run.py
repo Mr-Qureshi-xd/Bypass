@@ -11,9 +11,9 @@ print('Join Our Facebook Group For More Update bruh...')
 os.system('xdg-open https://facebook.com/groups/447671328737321/')
 if machine()=='aarch64':
     
-    import nox.so
+    import nox
     nox.main
 else:
     
-    import nox32.so
+    import nox32
     nox.main
